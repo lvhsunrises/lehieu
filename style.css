@@ -1,0 +1,261 @@
+body {
+    background-color: #FFF !important;
+}
+
+.header-savill {
+    min-height: 300px;
+}
+
+.icon {
+    margin: auto;
+    width: 60%;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.form-upload{
+    background-color: rgb(188, 225, 236);
+    text-align: center;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    color: rgb(3, 192, 250)
+}
+
+.icon-hi {
+    margin: auto;
+    width: 60%;
+    margin: 1rem;
+    color: white;
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.icon-right {
+    margin: auto;
+    width: 60%;
+    margin: 1rem;
+    color: white;
+    font-size: 20px;
+    padding-top: 1rem;
+    position:relative; 
+    position: fixed;
+    
+}
+
+#text_bg {
+    width: 60%;
+    padding-right: 100px;
+    margin: auto;
+    /* padding: 40px; */
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+/*.header-Esubmission{
+    margin-left:2rem;
+    margin-right:3rem;
+}*/
+.col-ESubmission {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+.icon-style {
+    color: white;
+    font-size: 25px;
+}
+
+#text_step1 {
+    color: #676a6c;
+    display: block;
+}
+
+.row-Eubmission {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #ffffff;
+    border-radius: 14px;
+    margin-top: -70px;
+}
+
+/* .row-Eubmission2 {
+    padding: 1rem;
+    background: #2a3c66;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.row-party {
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 0px 0px 14px 14px;
+} */
+
+.body-savill {
+    padding: 1rem;
+    background-color: #e9ecef;
+}
+
+.color-red {
+    color: red;
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    background-color: #eee;
+}
+
+.btn-outline-secondary {
+    border-color: none !important;
+}
+
+.fas {
+    color: #e9ecef;
+}
+
+.row-button {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn-info {
+    background-color: #acafb2;
+    border-color: #acafb2;
+}
+
+#blog {
+    display: block;
+}
+
+#color-text {
+    color: white;
+}
+.border-haeder{
+    background: #DDDDDD;
+    border-radius: 5px;
+    margin-top: 8px;
+    border: 1px solid rgb(247, 167, 6);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-left: 16px;
+   
+}
+.border-haeder i{
+    color: rgb(238, 171, 35);
+    font-size: 14px;
+    text-align: left;
+}
+.col-option .row{
+    padding: 2rem;
+}
+.col-option .row .col-6{
+    text-align: center;
+}
+.body-upload{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #ffffff;
+    border-radius: 0px 0px 14px 14px;
+    box-shadow: 5px 5px 5px rgb(202, 200, 200);
+    -moz-box-shadow: 5px 5px 5px rgb(189, 186, 186);
+    -webkit-box-shadow: 5px 5px 5px rgb(172, 172, 172);
+    margin-top: -18px;
+}
+.header-upload{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #3e299c;
+    border-radius: 14px 14px 0px 0px;
+    margin-top: -70px;
+    color:#fff;
+}
+.header-upload1{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #3e299c;
+    border-radius: 14px 14px 0px 0px;
+    margin-top: 20px;
+    color:#fff;
+}
+.header-upload .container .row .col-10 span{
+    text-align: left;
+    font-size: 15px;
+}
+.header-upload .container .row .col-2 i{
+    
+    
+}
+.header-upload1 .container .row .col-10 span{
+    text-align: left;
+    font-size: 15px;
+}
+.header-upload1 .container .row .col-2 i{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.body-upload .upload-1{
+    background: #EEEEEE;
+    border-radius: 6px;
+    border: 1px solid #61a2d9b0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.body-upload .upload-1 .row-upload .col-3{
+    color:white;
+    background-color: red;
+    border-radius: 6px 0px 6px 0px;
+
+}
+.body-upload .upload-1 .row-upload .col-9{
+    text-align: right;
+    color:rgb(238, 171, 35);
+}
+.body-upload .upload-1 .row-upload .col-5{
+    text-align: right;
+    color:rgb(238, 171, 35);
+    margin-left: 10px;
+}
+.row-upload{
+    clear: both;
+}
+.body-upload .upload-1 .upload-content{
+    padding: 10px;
+    font-size: 15px;
+    
+}
+.body-upload .upload-1 .row-upload .jpg-upload-3 {
+    color:white;
+    background-color: rgb(35, 88, 185);
+    border-radius: 0px 0px 6px 0px;
+    text-align: center;
+    margin-left: 5px;
+}
+.dropzone {
+    border: 2px dashed #61a2d9b0;
+    border-radius: 5px;
+    background: #e3f1ec;
+    text-align: center;
+    line-height: 70px;
+  }
+  
+  .dropzone i{
+    font-size: 2rem;
+    padding-right: 10px;
+    color: lightskyblue;
+  }
+  
+  .dropzone .dz-message {
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 500;
+    font-size: initial;
+    text-transform: uppercase;
+  }
+  #icon-angle-down{
+      float: right;
+      font-size: 20px;
+  }
+
+  

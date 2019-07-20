@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="en" class="app login">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="dropzone.css">
+    <script src="dropzone.js"></script>
+    <!-- style layout -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="page-wrapper chiller-theme toggled">
+        <!--Menu Left-->
+
+        <div class="header-savill"
+            style="background: url(img/bg_layout1.png) no-repeat; background-size: cover;">
+            <div class="row">
+                <div class="col-3 icon">
+                    <a id="show-sidebar" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+                <div class="col-9" id="text_bg">
+                    <span>E-Submission</span>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fas fa-chevron-left icon-hi"></i>
+                    </div>
+                    <div class="col-6 col-ESubmission">
+                        <span id="text_step1">STEP 5</span>
+                        <span>Internal Salesperson</span>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-chevron-right icon-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="body-savill">
+            <div class="header-upload">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10"><span>Required Documents</span></div>
+                        <div class="col-2"><i class="fas fa-angle-down" id="icon-angle-down"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-upload">
+                <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 15 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>CEA Sales Transactions Forms/Commisssion Agreement Forms</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+                <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 15 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>Tenancy Agreement</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+                <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 6 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>External Cobroke Commission Letter</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+                <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 15 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>Cusstomer's Particulars Form</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+                <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 15 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>Salesperson's Checklist on Customer Due Diligence</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+            </div>
+            <div class="header-upload1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10"><span>Non - Required Documents</span></div>
+                            <div class="col-2"><i class="fas fa-angle-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body-upload">
+                    <div class="upload-1">
+                        <div class="container">
+                            <div class="row row-upload">
+                                <div class="col-3"><span>.pdf</span></div>
+                                <div class="col-9"><span>Max 15 MB</span></div>
+                            </div>
+                        </div>
+                        <div class="upload-content">
+                            <span>CEA Sales Transactions Forms/Commisssion Agreement Forms</span>
+                        </div>
+                        <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                            <div class="dz-message d-flex flex-column">
+                                    <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                              </div>
+                        </form>
+                        
+                    </div>
+                    <div class="upload-1">
+                        <div class="container">
+                            <div class="row row-upload">
+                                <div class="col-3"><span>.pdf</span></div>
+                                <div class="col-9"><span>Max 15 MB</span></div>
+                            </div>
+                        </div>
+                        <div class="upload-content">
+                            <span>Tenancy Agreement</span>
+                        </div>
+                        <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                            <div class="dz-message d-flex flex-column">
+                                    <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                              </div>
+                        </form>
+                    </div>
+                    <div class="upload-1">
+                        <div class="container">
+                            <div class="row row-upload">
+                                <div class="col-3"><span>.pdf</span></div>
+                                <div class="col-9"><span>Max 6 MB</span></div>
+                            </div>
+                        </div>
+                        <div class="upload-content">
+                            <span>External Cobroke Commission Letter</span>
+                        </div>
+                        <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                            <div class="dz-message d-flex flex-column">
+                                    <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                              </div>
+                        </form>
+                    </div>
+                    <div class="upload-1">
+                        <div class="container">
+                            <div class="row row-upload">
+                                <div class="col-3"><span>.pdf</span></div>
+                                <div class="col-9"><span>Max 15 MB</span></div>
+                            </div>
+                        </div>
+                        <div class="upload-content">
+                            <span>Cusstomer's Particulars Form</span>
+                        </div>
+                        <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                            <div class="dz-message d-flex flex-column">
+                                    <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                              </div>
+                        </form>
+                    </div>
+                    <div class="upload-1">
+                        <div class="container">
+                            <div class="row row-upload">
+                                <div class="col-3"><span>.pdf</span></div>
+                                <div class="col-9"><span>Max 15 MB</span></div>
+                            </div>
+                        </div>
+                        <div class="upload-content">
+                            <span>Salesperson's Checklist on Customer Due Diligence</span>
+                        </div>
+                        <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                            <div class="dz-message d-flex flex-column">
+                                    <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                              </div>
+                        </form>
+                    </div>
+                  <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 15 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>Salesperson's Checklist on Customer Due Diligence</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+                <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 15 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>Salesperson's Checklist on Customer Due Diligence</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+                <div class="upload-1">
+                    <div class="container">
+                        <div class="row row-upload">
+                            <div class="col-3"><span>.pdf</span></div>
+                            <div class="col-9"><span>Max 15 MB</span></div>
+                        </div>
+                    </div>
+                    <div class="upload-content">
+                        <span>Salesperson's Checklist on Customer Due Diligence</span>
+                    </div>
+                    <form action="/file-upload" class="dropzone dz-clickable" id="my-dropzone">
+                        <div class="dz-message d-flex flex-column">
+                                <span><i class="fas fa-cloud-upload-alt icon-upload"></i>Tap To Upload</span>
+                          </div>
+                    </form>
+                </div>
+                <div class="col-xs-12">
+                        <div class="row row-button">
+                            <div class="col-6">
+                                <button type="button" class="btn btn-info btn-lg btn-block">Previous</button>
+                            </div>
+                            <div class="col-6">
+                                <button type="button" class="btn active btn-info btn-lg btn-block">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>$(function() {
+            $("#my-dropzone").dropzone({ url: "/file/post" });
+          });</script>
+    
+</body>
+</html>
+
